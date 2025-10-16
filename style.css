@@ -1,0 +1,134 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background: linear-gradient(120deg, #d0f4de, #c5e0fc); /* azul e verde suave */
+    color: #1f2937;
+}
+
+h1 {
+    text-align: center;
+    color: #065f46; /* verde escuro */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0f766e; /* verde médio */
+    margin-bottom: 10px;
+}
+
+section {
+    background: #ffffffcc; /* fundo semi-transparente */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Dashboard */
+#dashboard p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+#saldo {
+    color: #059669; /* verde vivo */
+    font-weight: bold;
+}
+
+#total-receitas {
+    color: #10b981; /* verde claro */
+}
+
+#total-despesas {
+    color: #0ea5e9; /* azul */
+}
+
+/* Formulários */
+input, select, button {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #94a3b8;
+    font-size: 1em;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #0ea5e9;
+    box-shadow: 0 0 5px #0ea5e9;
+}
+
+button {
+    background: linear-gradient(45deg, #06b6d4, #10b981); /* azul + verde */
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #0ea5e9, #059669);
+}
+
+/* Categorias */
+#categorias input {
+    width: 200px;
+}
+
+#categorias button {
+    background: linear-gradient(45deg, #34d399, #3b82f6); /* verde + azul */
+}
+
+#categorias button:hover {
+    background: linear-gradient(45deg, #059669, #2563eb);
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: linear-gradient(90deg, #0f766e, #0ea5e9); /* azul + verde */
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #d1fae5;
+}
+
+tr:nth-child(even) {
+    background-color: #d1fae5cc; /* verde claro transparente */
+}
+
+tr:hover {
+    background-color: #bae6fdcc; /* azul claro transparente */
+}
+
+/* Botões de ações */
+td button {
+    padding: 5px 8px;
+    border-radius: 6px;
+    margin-right: 5px;
+    color: white;
+    border: none;
+}
+
+td button:first-child {
+    background: linear-gradient(45deg, #06b6d4, #10b981); /* editar: azul+verde */
+}
+
+td button:first-child:hover {
+    background: linear-gradient(45deg, #0ea5e9, #059669);
+}
+
+td button:last-child {
+    background: linear-gradient(45deg, #f87171, #ef4444); /* excluir: vermelho vivo */
+}
+
+td button:last-child:hover {
+    background: linear-gradient(45deg, #dc2626, #b91c1c);
+}
